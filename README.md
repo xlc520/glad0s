@@ -18,7 +18,9 @@
 | COOKIE         | 你在那个网站抓到的 cookie |
 | PUSHPLUS_TOKEN | Pushplus的token   |
 
-2.依次点击`Actions`-->`run`-->`Run workflow`-->`Run workflow`以激活Actions
+2.依次点击`Actions`-->`checkin`-->`Run workflow`-->`Run workflow`以激活Actions
+
+3.【建议】把自动运行时间修改成其他，以免都在一个时间点执行，位置`.github/workflows/run.yml` 的 schedule: - cron
 
 ## 日志
 
