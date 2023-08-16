@@ -20,7 +20,7 @@ ua = "TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNT
 
 
 def base64_decode(encode_data):
-    decode_data = base64.b64decode(encode_data)
+    decode_data = base64.b64decode(encode_data).decode('utf-8')
     return decode_data
 
 
